@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/Lavender</item>
+        <item name="android:navigationBarColor">@color/Lavender</item>
+        <item name="android:windowBackground">@color/Lavender</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="MNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/White</item>
+        <item name="android:statusBarColor">@color/Black</item>
+        <item name="android:navigationBarColor">@color/White</item>
+        <item name="android:windowBackground">@color/White</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+
+    <!-- text -->
+    <style name="version">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="fontFamily">@font/cyberpunk</item>
+    </style>
+</resources>
